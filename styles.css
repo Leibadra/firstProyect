@@ -30,7 +30,7 @@ body {
   font-weight: 505;
 }
 
-.links:hover {
+.navBar > .links a:hover {
   color: #072ac8;
 }
 
@@ -456,7 +456,7 @@ form {
 }
 
 footer {
-  font-style:normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
@@ -470,13 +470,12 @@ footer {
   justify-content: space-between;
 }
 
- .footer{
-    grid-template-columns: 30% 70%;
-    margin: 30px 130px 30px 130px;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  grid-template-columns: 30% 70%;
+  margin: 30px 130px 30px 130px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.secondDiv{
- 
+.secondDiv {
 }
