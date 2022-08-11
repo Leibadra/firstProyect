@@ -15,10 +15,10 @@ body {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   text-align: center;
-  margin: 30px;
+  margin-top: 6%;
 }
 
-.navBar > .links {
+.navBar .links {
   text-decoration: none;
   list-style: none;
   justify-content: center;
@@ -30,17 +30,17 @@ body {
   font-weight: 505;
 }
 
-.links:hover {
+.navBar .links a:hover {
   color: #072ac8;
 }
 
-.navBar .circle {
+.navBar>.circle {
   width: 60.53px;
   height: 18.46px;
   left: 170.64px;
   top: 86.91px;
   margin-top: 17px;
-  margin-left: 39px;
+  margin-left: 30%;
 }
 
 .buttonOne {
@@ -56,6 +56,8 @@ body {
   font-size: 13px;
   position: relative;
   top: 5px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .li1 {
@@ -77,11 +79,11 @@ body {
   margin-left: 35px;
 }
 
-section2 > h3 {
+section2>h3 {
   margin-left: 66px;
 }
 
-section3 > h3 {
+section3>h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -91,7 +93,7 @@ section3 > h3 {
   margin-left: 56px;
 }
 
-section3 > .section3 > h3 {
+section3>.section3>h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -101,6 +103,7 @@ section3 > .section3 > h3 {
   padding-top: 215px;
   margin-bottom: 10px;
 }
+
 .section3 {
   margin-left: 20px;
   padding: 0px;
@@ -111,7 +114,7 @@ section3 > .section3 > h3 {
   top: 3578px;
 }
 
-section3 > .section3 > p {
+section3>.section3>p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -133,20 +136,20 @@ section3 > .section3 > p {
   font-weight: 505;
   font-size: 13px;
   position: relative;
-  width: 100%;
+  width: 97%;
 }
 
 form {
-  position: relative;
   text-align: left;
-  width: 100%;
+  width: 90%;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color: #6b708d;
-  margin-left:5%;
-  margin-right:5%;
+  color: rgb(107, 112, 141);
+  margin-left: 5;
+  margin-left: 5%;
+  margin-top: 10%;
 }
 
 input {
@@ -157,18 +160,19 @@ input {
   border: none;
   color: #6b708d;
   background-color: rgba(107, 112, 141, 0.1);
-  height: 40px;
+  height: 10%;
 }
 
-#Name{
-  width: 100%;
+#Name {
+  width: 97%;
 }
 
 #Email {
   width: 50%;
 }
+
 #Phone {
-  width: 50%;
+  width: 41%;
 }
 
 #Message {
@@ -180,7 +184,7 @@ input {
   color: #6b708d;
   background-color: rgba(107, 112, 141, 0.1);
   height: 170%;
-  width: 100%;
+  width: 97%;
 }
 
 .envelope {
@@ -188,24 +192,356 @@ input {
   left: 38px;
 }
 
+
 footer {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 150%;
+  line-height: 30%;
   color: #6b708d;
+  margin: 5% 10% 5% 10%;
 }
 
 .options {
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 30px;
+  grid-template-columns: 1fr 1fr;
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  right: -300%;
+  top: 40%;
 }
 
 .footer {
-  grid-template-columns: 30% 70%;
-  margin: 30px 130px 30px 130px;
+  grid-template-columns: 1fr 1fr 1fr;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+}
+
+.firstDiv {
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.footer .circle {
+  width: 98.38px;
+}
+
+.Team {
+  margin-top: 10%;
+  margin-left: -60%;
+  margin-right: 30%;
+}
+
+.Services {
+  margin-top: 10%;
+}
+
+.About {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.Press {
+  margin-top: 10%;
+  margin-left: -60%;
+  margin-right: 30%;
+}
+
+.Projects {
+  margin-top: 10%;
+}
+
+.Privacy {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .header1 {
+    font-size: 45px;
+    text-align: left;
+    margin: -8% 0% 0% 21%;
+    font-weight: 900;
+  }
+
+  .simplifyParagraph {
+    margin: 75px;
+    font-weight: 501;
+    font-size: 24px;
+    color: #6b708d;
+  }
+
+  .Images1 {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 69vw;
+    margin: -10% 1% 5% 1%;
+  }
+
+  .image2 {
+    display: flex;
+    width: 43%;
+    height: 25%;
+    position: relative;
+    top: -47%;
+    left: 6%;
+  }
+
+  .buttonOne {
+    font-size: 11px;
+  }
+
+  .brands {
+    margin-top: 50%;
+  }
+
+  .buttonTwo {
+    position: relative;
+    top: 3%;
+    left: 20%;
+  }
+
+  .buttonThree {
+    position: relative;
+    top: -4%;
+    left: 108%;
+  }
+
+  .paragraph1 {
+    margin: 2% -186% 10% 28%;
+    text-align: center;
+  }
+
+  section3 .secondGrid {
+    width: 100%;
+    margin: 0%;
+  }
+
+  section3 .firstGrid {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .projectParagraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding-left: 21px;
+    margin: 10px 0px 60px 20px;
+    padding-right: 20%;
+  }
+
+  .image5 {
+    position: relative;
+    top: -110%;
+    left: 76%;
+    display: flex;
+  }
+
+  .image7 {
+    position: relative;
+    top: -87%;
+    left: 77%;
+    display: flex;
+  }
+
+  .servicesGrid {
+    width: 88%;
+    height: 66%;
+    margin: 5%;
+    padding-right: 10%;
+  }
+
+  .icons {
+    display: flex;
+    top: -130%;
+    left: -11%;
+    position: relative;
+  }
+
+  section5 .servicesGrid {
+    width: 98%;
+    height: 72%;
+  }
+
+  .servicesGrid > h5 {
+    font-weight: 502;
+    font-size: 20px;
+    margin-top: 28%;
+    margin-left: -7%;
+  }
+
+  .servicesGrid > li {
+    top: -13%;
+  }
+
+  section5 .servicesGrid > p {
+    font-size: 14px;
+    margin-bottom: 68%;
+    margin-left: -4%;
+  }
+
+  .Press {
+    margin-top: 10%;
+    margin-left: -230%;
+    margin-right: 30%;
+  }
+
+  .Team {
+    margin-top: 10%;
+    margin-left: -230%;
+    margin-right: 30%;
+  }
+
+  form {
+    left: 27%;
+  }
+
+  section3 > h3 {
+    margin: 10% 0% -3% 5%;
+  }
+
+  section5 > h3 {
+    margin: 10% 0% -3% 5%;
+  }
+
+  footer {
+    font-size: 15px;
+    margin: 5% 5% 5% 5%;
+  }
+  section4 img {
+    left: 36%;
+  }
+
+  section5 .servicesGrid > li {
+    position: relative;
+    top: -18%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section1 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .header1 {
+    text-align: left;
+    margin: 0% 22% 21% 0%;
+}
+
+  .firstGrid {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    display: grid;
+    margin: 0%;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+  }
+
+  .servicesGrid {
+    width: 90%;
+    justify-content: center;
+  }
+
+  section3 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  section5 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .brands {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .footer {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  form {
+    left: 9%;
+  }
+
+  .header1 {
+    text-align: left;
+    margin: 0% 22% 0% 0%;
+  }
+
+  .paragraph1 {
+    margin: 5% 27% 5% 0%;
+  }
+
+
+  .buttonTwo {
+    top: -2%;
+    left: 0%;
+  }
+
+  .buttonThree {
+    top: -2%;
+    left: 3%;
+  }
+  .sec4tittle {
+    font-size: 36px;
+  }
+
+   
+  section4 img {
+    border-radius: 50%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    top: 15%;
+  }
+
+  .navBar .links {
+    display: table-row-group;
+    text-align: left;
+    position: relative;
+    top: 36%;
+    left: -26%;
+  }
+
+  .buttonOne {
+    padding: 15% 7% 15% 10%;
+  }
+
+  .navBar > .circle {
+    margin-left: 0%;
+  }
+
+
+  .options {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    position: relative;
+    right: -244%;
+    top: 114%;
+  }
+
+  footer .address p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 10% -45% 9% 0%;
+  }
+
+  footer {
+    margin: 0%;
+  }
+
+  .Team {
+    margin-top: 10%;
+    margin-left: -362%;
+    margin-right: 30%;
+  }
+
+  .Press {
+    margin-top: 10%;
+    margin-left: -362%;
+    margin-right: 30%;
+  }
+
 }

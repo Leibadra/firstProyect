@@ -15,50 +15,51 @@
   <nav class="navBar">
     <div class="circle"> <img src="logos/circle.svg" alt="Circle Logo" /></div>
     <ul class="links">
-      <li><a class="links li1" href="#Home">Home</a></li>
-      <li><a class="links" href="#Projects">Projects</a></li>
-      <li><a class="links li3" href="#Services">Services</a></li>
+      <li><a class="links li1" href="/firstProyect/index.html#Home">Home</a></li>
+      <li><a class="links" href="/firstProyect/index.html#Projects">Projects</a></li>
+      <li><a class="links li3" href="/firstProyect/index.html#Services">Services</a></li>
     </ul>
-    <div><button class="buttonOne" type="button">Contact Us</button></div>
+    <div><a href="/firstProyect/index3.html#Form" <button class="buttonOne" type="button">Contact Us</button> </a></div>
   </nav>
 
 
-  <section3>
+  <section3 id="Form">
     <h3 class="header1">Contact Us</h3>
     <div class="section">
-        <form>
+      <form>
         <label for="Name">Full Name *</label> <br>
-        <input type="text" id="Name" value="Enter your full name"><br>
+        <required> <input type="text" id="Name" value="Enter your full name"> </required> <br>
         <label for="Email">Email</label><br>
         <input type="text" id="Email" value="Enter your email address">
         <label for="Phone">Phone:</label>
         <input type="text" id="Phone" value="Enter your phone number"><br>
         <label for="Message">Message</label><br>
-        <textarea for="Message" type="Message" id="Message" value="Write your message here ...." rows="5" cols="100"></textarea><br>
+        <textarea for="Message" type="Message" id="Message" value="Write your message here ...." rows="5"
+          cols="100">Write your message here ....</textarea><br>
         <input class="emailImg" type="submit" value="Submit">
       </form>
-      </div>
+    </div>
   </section3>
 
   <footer>
     <div class="footer">
-      <div class="firtDiv">
-        <div class="circle"> <img src="logos/circle.svg" alt="Circle Logo" /></div>
-        <address>
+      <div class="firstDiv">
+        <div class="circle"> <img class="circle" src="logos/circle.svg" alt="Circle Logo" /></div>
+        <div class="address">
           <p><br>2972 Westheimer Rd. Santa Ana,</br></p>
           <p><br>Illinois 85486</br></p>
-        </address>
+        </div>
       </div>
       <div class="secondDiv">
         <div class="options">
-          <p>Team</p>
-          <p>Services</p>
-          <p>About Us</p>
+          <p class="Team">Team</p>
+          <p class="Services">Services</p>
+          <p class="About">About Us</p>
         </div>
         <div class="options">
-          <p>Press</p>
-          <p>Projects</p>
-          <p>Privacy Policy</p>
+          <p class="Press">Press</p>
+          <p class="Projects">Projects</p>
+          <p class="Privacy Policy">Privacy Policy</p>
         </div>
       </div>
     </div>

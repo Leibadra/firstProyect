@@ -16,9 +16,10 @@ body {
   grid-template-columns: 20% 60% 20%;
   text-align: center;
   margin: 30px;
+  margin-top: 6%;
 }
 
-.navBar > .links {
+.navBar .links {
   text-decoration: none;
   list-style: none;
   justify-content: center;
@@ -30,7 +31,7 @@ body {
   font-weight: 505;
 }
 
-.navBar > .links a:hover {
+.navBar .links a:hover {
   color: #072ac8;
 }
 
@@ -40,7 +41,7 @@ body {
   left: 170.64px;
   top: 86.91px;
   margin-top: 17px;
-  margin-left: 39px;
+  margin-left: 30%;
 }
 
 .buttonOne {
@@ -56,23 +57,26 @@ body {
   font-size: 13px;
   position: relative;
   top: 5px;
+  text-decoration: none;
+  list-style: none;
 }
 
 section1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 30px;
-  margin-bottom: -500px;
+  margin-bottom: -50%;
+  margin-top: 10%;
 }
 
 .header1 {
-  position: relative;
-  top: 68px;
-  left: 34px;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
+  text-align: left;
+  margin: 25% 0% 0% 15%;
+  color: #292e47;
 }
 
 .paragraph1 {
@@ -80,37 +84,34 @@ section1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  position: relative;
-  bottom: -60px;
-  left: 34px;
-  margin-bottom: 40px;
+  color: #6b708d;
+  margin: 5% 13% 10% 16%;
 }
 
 .Images1 {
   background-image: url(hero-section/hero-image.png);
   background-repeat: round;
-  width: 570px;
-  height: 640px;
+  width: 45vw;
+  height: 50vw;
   margin: 0px 70px 0px 70px;
-  border: none;
 }
 
 .image2 {
-  width: 308px;
-  height: 343px;
-  position: relative;
-  top: -617px;
-  left: 28px;
   display: flex;
+  width: 28vw;
+  height: 30vw;
+  position: relative;
+  top: -47%;
+  left: -1%;
 }
 
 .image3 {
-  width: 290px;
-  height: 308px;
-  position: relative;
-  top: -548px;
-  left: 400px;
   display: flex;
+  width: 26vw;
+  height: 27vw;
+  position: relative;
+  top: -45%;
+  left: 52%;
 }
 
 .li1 {
@@ -122,38 +123,38 @@ section1 {
 }
 
 .buttonTwo {
-  font-size: 17px;
-  background-color: #072ac8;
+  background-color: rgb(7, 42, 200);
   border: none;
   color: white;
   padding: 15px 32px;
-  font-size: 16px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 505;
-  font-size: 13px;
+  font-size: 15px;
   position: relative;
-  top: 70px;
-  left: 34px;
+  top: 3%;
+  left: 15%;
+  width: 150px;
+  height: 52px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .buttonThree {
-  font-size: 17px;
-  background-color: #e5e5e5;
-  color: #6b708d;
+  background-color: rgb(229, 229, 229);
+  color: rgb(107, 112, 141);
   border: none;
-  padding: 15px 32px;
-  font-size: 16px;
+  padding: 17px 26px;
   font-style: normal;
   font-weight: 505;
-  font-size: 13px;
-  position: relative;
-  top: 5px;
-  font-family: "Roboto";
+  font-size: 15px;
   line-height: 130%;
   position: relative;
-  top: 70px;
-  left: 34px;
+  top: 3%;
+  left: 15%;
+  width: 150px;
+  height: 52px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .brands {
@@ -168,7 +169,7 @@ section1 {
 .firstGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 30px;
+  margin: 6%;
   text-align: center;
 }
 
@@ -181,33 +182,30 @@ section1 {
 }
 
 .projectImg1 {
-  width: 340px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   background-image: url(projects-section/1.jpg);
   background-repeat: round;
-  margin-left: -35px;
 }
 
 .projectImg2 {
-  width: 340px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   background-image: url(projects-section/2.jpg);
   background-repeat: round;
-  margin-left: -35px;
 }
 
 .projectImg3 {
-  width: 340px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   background-image: url(projects-section/3.jpg);
   background-repeat: round;
-  margin-left: -35px;
 }
 
 .projectsGrid {
   background-color: white;
-  width: 340px;
-  height: 240px;
+  width: 100%;
+  height: 250px;
   position: relative;
   top: -10px;
 }
@@ -258,14 +256,14 @@ section3 > h3 {
   font-size: 40px;
   line-height: 47px;
   color: #292e47;
-  margin-left: 56px;
+  margin: 10% 0% -3% 8%;
 }
 
 .section4 {
-  margin-left: 20px;
-  padding: 0px;
   background-color: #292e47;
-  width: 1320px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
   height: 622px;
   left: calc(50% - 1320px / 2);
   top: 2059px;
@@ -305,18 +303,17 @@ section3 > h3 {
   width: 150px;
   height: 150px;
   position: relative;
-  top: -617px;
-  left: 28px;
+  top: -85%;
+  left: 2%;
   display: flex;
-  top: -396px;
 }
 
 .image5 {
   width: 150px;
   height: 150px;
   position: relative;
-  top: -548px;
-  left: 1131px;
+  top: -110%;
+  left: 86%;
   display: flex;
 }
 
@@ -324,8 +321,8 @@ section3 > h3 {
   width: 150px;
   height: 150px;
   position: relative;
-  top: -286px;
-  left: 32px;
+  top: -62%;
+  left: 2%;
   display: flex;
 }
 
@@ -333,11 +330,19 @@ section3 > h3 {
   width: 150px;
   height: 150px;
   position: relative;
-  top: -438px;
-  left: 1138px;
+  top: -87%;
+  left: 86%;
   display: flex;
 }
 
+section4 img {
+  border-radius: 50%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 42%;
+  top: 9%;
+}
 .servicesGrid {
   width: 340px;
   height: 380px;
@@ -346,10 +351,10 @@ section3 > h3 {
   text-align: left;
   padding: 34px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 10px grey;
 }
 
 .servicesGrid > h5 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 502;
   font-size: 24px;
@@ -368,7 +373,6 @@ section3 > h3 {
 }
 
 .servicesGrid > li {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 402;
   font-size: 17px;
@@ -389,7 +393,7 @@ section5 > h3 {
   font-size: 40px;
   line-height: 47px;
   color: #292e47;
-  margin-left: 56px;
+  margin: 10% 0% -3% 8%;
 }
 
 .icons {
@@ -409,10 +413,11 @@ section6 > .section6 > h3 {
   margin-bottom: 10px;
 }
 .section6 {
-  margin-left: 20px;
   padding: 0px;
   background-color: #ffc600;
-  width: 1320px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
   height: 622px;
   left: calc(50% - 1320px / 2);
   top: 3578px;
@@ -447,7 +452,7 @@ form {
   position: relative;
   text-align: center;
   display: inline-flex;
-  left: 490px;
+  left: 39%;
 }
 
 .envelope {
@@ -459,23 +464,374 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 150%;
+  line-height: 30%;
   color: #6b708d;
+  margin: 5% 10% 5% 10%;
 }
 
 .options {
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 30px;
+  grid-template-columns: 1fr 1fr;
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  right: -300%;
+  top: 40%;
 }
 
 .footer {
-  grid-template-columns: 30% 70%;
-  margin: 30px 130px 30px 130px;
+  grid-template-columns: 1fr 1fr 1fr;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+}
+
+.firstDiv {
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.footer .circle {
+  width: 98.38px;
+}
+
+.Team {
+  margin-top: 10%;
+  margin-left: -60%;
+  margin-right: 30%;
+}
+
+.Services {
+  margin-top: 10%;
+}
+
+.About {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.Press {
+  margin-top: 10%;
+  margin-left: -60%;
+  margin-right: 30%;
+}
+
+.Projects {
+  margin-top: 10%;
+}
+
+.Privacy {
+  margin-top: 10%;
+  margin-left: 30%;
 }
 
 .secondDiv {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .header1 {
+    font-size: 45px;
+    text-align: left;
+    margin: -8% 0% 0% 21%;
+    font-weight: 900;
+  }
+
+  .Images1 {
+    width: 45vw;
+    height: 50vw;
+    margin: 0px 40px 0px 70px;
+  }
+
+  .image2 {
+    display: flex;
+    width: 43%;
+    height: 25%;
+    position: relative;
+    top: -47%;
+    left: 6%;
+  }
+
+  .buttonOne {
+    font-size: 11px;
+  }
+
+  .brands {
+    margin-top: 50%;
+  }
+
+  .buttonTwo {
+    position: relative;
+    top: 3%;
+    left: 20%;
+  }
+
+  .buttonThree {
+    position: relative;
+    top: -4%;
+    left: 108%;
+  }
+
+  .paragraph1 {
+    margin: 2% -186% 10% 28%;
+    text-align: center;
+  }
+
+  section3 .secondGrid {
+    width: 100%;
+    margin: 0%;
+  }
+
+  section3 .firstGrid {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .projectParagraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding-left: 21px;
+    margin: 10px 0px 60px 20px;
+    padding-right: 20%;
+  }
+
+  .image5 {
+    position: relative;
+    top: -110%;
+    left: 76%;
+    display: flex;
+  }
+
+  .image7 {
+    position: relative;
+    top: -87%;
+    left: 77%;
+    display: flex;
+  }
+
+  .servicesGrid {
+    width: 88%;
+    height: 66%;
+    margin: 5%;
+    padding-right: 10%;
+  }
+
+  .icons {
+    display: flex;
+    top: -130%;
+    left: -11%;
+    position: relative;
+  }
+
+  section5 .servicesGrid {
+    width: 98%;
+    height: 72%;
+  }
+
+  .servicesGrid > h5 {
+    font-weight: 502;
+    font-size: 20px;
+    margin-top: 28%;
+    margin-left: -7%;
+  }
+
+  .servicesGrid > li {
+    top: -13%;
+  }
+
+  section5 .servicesGrid > p {
+    font-size: 14px;
+    margin-bottom: 68%;
+    margin-left: -4%;
+  }
+
+  .Press {
+    margin-top: 10%;
+    margin-left: -230%;
+    margin-right: 30%;
+  }
+
+  .Team {
+    margin-top: 10%;
+    margin-left: -230%;
+    margin-right: 30%;
+  }
+
+  form {
+    left: 27%;
+  }
+
+  section3 > h3 {
+    margin: 10% 0% -3% 5%;
+  }
+
+  section5 > h3 {
+    margin: 10% 0% -3% 5%;
+  }
+
+  footer {
+    font-size: 15px;
+    margin: 5% 5% 5% 5%;
+  }
+  section4 img {
+    left: 36%;
+  }
+
+  section5 .servicesGrid > li {
+    position: relative;
+    top: -18%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section1 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .firstGrid {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    display: grid;
+    margin: 0%;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+  }
+
+  .servicesGrid {
+    width: 90%;
+    justify-content: center;
+  }
+
+  section3 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  section5 {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .brands {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .footer {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  form {
+    left: 9%;
+  }
+
+  .header1 {
+    text-align: left;
+    margin: 0% 22% 0% 0%;
+  }
+
+  .paragraph1 {
+    margin: 5% 27% 5% 0%;
+  }
+
+  .Images1 {
+    width: 65vw;
+    height: 69vw;
+    margin: 35px 70px 0px 20px;
+  }
+
+  .image2 {
+    top: -52%;
+    left: 4%;
+    width: 32vw;
+    height: 34vw;
+  }
+
+  .image3 {
+    left: 45%;
+    width: 31vw;
+    height: 32vw;
+  }
+
+  .buttonTwo {
+    top: -2%;
+    left: 0%;
+  }
+
+  .buttonThree {
+    top: -2%;
+    left: 3%;
+  }
+  .sec4tittle {
+    font-size: 36px;
+  }
+
+  .p1 {
+    font-size: 14px;
+  }
+
+  .image5 {
+    left: 65%;
+  }
+
+  .image7 {
+    left: 66%;
+  }
+
+  section4 img {
+    border-radius: 50%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    top: 15%;
+  }
+
+  .navBar .links {
+    display: table-row-group;
+    text-align: left;
+    position: relative;
+    top: 36%;
+    left: -26%;
+  }
+
+  .buttonOne {
+    padding: 15% 7% 15% 10%;
+  }
+
+  .navBar > .circle {
+    margin-left: 0%;
+  }
+
+  .brands {
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-items: self-start;
+  }
+
+  .options {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    position: relative;
+    right: -244%;
+    top: 114%;
+  }
+
+  footer .address p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 10% -45% 9% 0%;
+  }
+
+  footer {
+    margin: 0%;
+  }
+
+  .Team {
+    margin-top: 10%;
+    margin-left: -362%;
+    margin-right: 30%;
+  }
+
+  .Press {
+    margin-top: 10%;
+    margin-left: -362%;
+    margin-right: 30%;
+  }
 }
