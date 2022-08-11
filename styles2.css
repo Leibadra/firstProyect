@@ -537,10 +537,6 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
   }
 
-  .brands {
-    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
-  }
-
   .footer {
     grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
   }
@@ -555,13 +551,9 @@ footer {
   }
 
   .paragraph1 {
-    margin: 5% 27% 5% 0%;
-  }
-
-  .Images1 {
-    width: 65vw;
-    height: 69vw;
-    margin: 35px 70px 0px 20px;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .image2 {
@@ -577,29 +569,12 @@ footer {
     height: 32vw;
   }
 
-  .buttonTwo {
-    top: -2%;
-    left: 0%;
-  }
-
-  .buttonThree {
-    top: -2%;
-    left: 3%;
-  }
   .sec4tittle {
     font-size: 36px;
   }
 
   .p1 {
     font-size: 14px;
-  }
-
-  .image5 {
-    left: 65%;
-  }
-
-  .image7 {
-    left: 66%;
   }
 
   section4 img {
@@ -609,6 +584,15 @@ footer {
     height: 40px;
     left: 45%;
     top: 15%;
+  }
+
+  .navBar {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .navBar .links {
@@ -665,11 +649,20 @@ footer {
     margin-left: -362%;
     margin-right: 30%;
   }
-.simplifyParagraph{
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%;
-  height: 69vw;
-  margin: -10% 1% 5% 1%;
-}
+  .simplifyParagraph {
+    width: 76%;
+    margin-left: 10%;
+    height: 69vw;
+    margin-bottom: -3%;
+    grid-template-columns: 1fr 1fr;
+    display: auto;
+  }
+
+  .Images1 {
+    width: 90%;
+    height: 50vw;
+    background-repeat: round;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
